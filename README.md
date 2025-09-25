@@ -1,4 +1,4 @@
-# 🏎️ Heat Online (projeto em desenvolvimento)
+# 🏎️ Heat Online (project in development)
 
 ![Made with Angular](https://img.shields.io/badge/frontend-Angular-DD0031?logo=angular&logoColor=white)
 ![Backend Spring Boot](https://img.shields.io/badge/backend-Spring%20Boot-6DB33F?logo=spring&logoColor=white)
@@ -7,77 +7,65 @@
 
 ---
 
-## 🎯 Visão
-Heat Online é uma adaptação digital competitiva do jogo de tabuleiro *Heat: Pedal to the Metal*.  
-O objetivo é recriar a emoção das corridas estratégicas, com suporte para partidas online, ranking competitivo e campeonatos no futuro.
+## 🎯 Vision
+Heat Online is a competitive digital adaptation of the board game *Heat: Pedal to the Metal*.  
+The goal is to recreate the thrill of strategic racing, with support for online matches, competitive ranking, and championships.
 
 ---
 
-## 🚀 Funcionalidades Planeadas
-- ✅ **Partidas online** até 5 jogadores (1v1v1v1v1).  
-- ✅ **Sistema de matchmaking** com MMR/Elo.  
-- ✅ **Chat integrado** (global, privado, in-game).  
-- ✅ **Cartas oficiais**: velocidade, upgrades, patrocinadores, heat, stress.  
-- ✅ **Pistas digitais** com setores, curvas e condições.  
+## 🚀 Main Features
+- ✅ **Online matches** with up to 5 players (1v1v1v1v1).  
+- ✅ **Matchmaking system** with MMR/Elo.  
+- ✅ **Integrated chat** (global, private, in-game).  
+- ✅ **Official cards**: speed, upgrades, sponsors, heat, stress.  
+- ✅ **Digital tracks** with sectors, curves, and conditions.  
+- ✅ **Championships** (sequential races with scoring).  
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Tech Stack
 - **Frontend**: Angular, HTML, SCSS.  
-- **Backend**: Java Spring Boot (microserviços).  
-- **Base de Dados**: PostgreSQL.  
-- **Comunicação em tempo real**: WebSockets.  
-- **Infraestrutura**: Docker, Kubernetes, CI/CD.  
+- **Backend**: Java Spring Boot (microservices).  
+- **Database**: PostgreSQL.  
+- **Real-time communication**: WebSockets.  
+- **Infrastructure**: Docker, Kubernetes, CI/CD.  
 
 ---
 
-## 📂 Estrutura da Arquitetura
-- **Auth Service** → Login OAuth 2.0 + JWT.  
-- **Matchmaking Service** → Emparelhamento de jogadores.  
-- **Game Service** → Motor de regras e corridas.  
-- **Chat Service** → Mensagens globais, privadas e por jogo.  
-- **Ranking Service** → Cálculo de MMR e ligas.  
+## 📂 Architecture Structure
+- **Auth Service** → OAuth 2.0 Login + JWT.  
+- **Matchmaking Service** → Player pairing.  
+- **Game Service** → Rules engine and races.  
+- **Chat Service** → Global, private, and in-game messages.  
+- **Championship Service** → Sequential races and scoring.  
+- **Ranking Service** → MMR calculation and leagues.  
 
 ---
 
-## 🏁 Fluxo de Jogo
-1. Jogador autentica com OAuth 2.0.  
-2. Entra no matchmaking → emparelhado com até 4 jogadores.  
-3. Corrida decorre em turnos → jogadas processadas pelo backend.  
-4. Resultado enviado via WebSocket.  
-5. Atualização de MMR, estatísticas e conquistas.  
+## 🏁 Game Flow
+1. Player authenticates via OAuth 2.0.  
+2. Enters matchmaking → paired with up to 4 other players.  
+3. Race proceeds in turns → moves processed by the backend.  
+4. Results sent via WebSocket.  
+5. Update of MMR, stats, and achievements.  
 
 ---
 
-## 🔮 Backlog
-- **Campeonatos**
-  - Corridas em sequência com pontos acumulados.  
-  - Corridas agendadas em datas distintas.  
-  - Sistema de inscrições e eliminatórias.  
-- **Equipes e modos especiais**
-  - Suporte a 2v2v2v2 (modo F1 por equipas).  
-  - Campeonatos de equipes.  
-- **Progressão & Conteúdo**
-  - Customização de carros (skins, cores).  
-  - Conquistas (ex: “3 vitórias seguidas”).  
-  - Passe de temporada / eventos temporários.  
-- **Infraestrutura**
-  - Replay de corridas.  
-  - Anti-cheat avançado.  
-  - Crossplay (PC/Mobile).  
-  - Suporte offline (vs IA).  
-- **Social**
-  - Amigos, convites e sistema de blocos.  
-  - Histórico de chat.  
-  - Notificações push.  
+## 🔮 Future
+- Scheduled championship races.  
+- 2v2v2v2 team mode (F1-style teams).  
+- Car customization.  
+- Replays and spectator mode.  
+- Crossplay (PC/Mobile).  
+- Friends, invites, and push notifications.  
 
 ---
 
 ## 📌 Status
-Projeto em fase inicial de **planejamento e arquitetura**.  
-Próximos passos:  
-- [ ] Finalizar documento de arquitetura.  
-- [ ] Definir modelo inicial de base de dados.  
-- [ ] Criar protótipo frontend + backend minimal (auth + lobby + chat).  
+Project in the early phase of **planning and architecture**.  
+Next steps:  
+- [ ] Finalize architecture document.  
+- [ ] Define initial database model.  
+- [ ] Create minimal frontend + backend prototype (auth + lobby + chat).  
 
 ---
