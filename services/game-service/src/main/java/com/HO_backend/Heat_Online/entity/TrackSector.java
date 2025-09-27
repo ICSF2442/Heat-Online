@@ -22,7 +22,7 @@ public class TrackSector {
 
     private String name;
     private Integer length;      // used if straight
-    private Integer difficulty;  // used if corner
+    private Integer speedLimit;  // used if corner
     private String notes;
 
     @OneToMany(mappedBy = "sector", cascade = CascadeType.ALL, orphanRemoval = true)
@@ -83,12 +83,12 @@ public class TrackSector {
         this.length = length;
     }
 
-    public Integer getDifficulty() {
-        return difficulty;
+    public Integer getSpeedLimit() {
+        return speedLimit;
     }
 
-    public void setDifficulty(Integer difficulty) {
-        this.difficulty = difficulty;
+    public void setSpeedLimit(Integer speedLimit) {
+        this.speedLimit = speedLimit;
     }
 
     public String getNotes() {
