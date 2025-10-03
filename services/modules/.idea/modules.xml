@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/car-service/Heat-Online.iml" filepath="$PROJECT_DIR$/car-service/Heat-Online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/token-service/Heat-Online (1).iml" filepath="$PROJECT_DIR$/token-service/Heat-Online (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/track-service/Heat-Online-Track-Service.iml" filepath="$PROJECT_DIR$/track-service/Heat-Online-Track-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules.iml" filepath="$PROJECT_DIR$/.idea/modules.iml" />
+    </modules>
+  </component>
+</project>
