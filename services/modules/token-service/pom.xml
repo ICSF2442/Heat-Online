@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.HO_backend</groupId>
-	<artifactId>Heat-Online</artifactId>
+	<artifactId>Heat-Online-Token-Service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Heat-Online</name>
-	<description>Heat-Online Backend</description>
+	<name>Heat-Online-Token-Service</name>
+	<description>Heat-Online-Token-Service Backend</description>
 	<url/>
 	<licenses>
 		<license/>
